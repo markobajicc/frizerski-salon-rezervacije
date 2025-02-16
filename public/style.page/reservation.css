@@ -1,0 +1,80 @@
+body{
+    background: linear-gradient(135deg, #172a74, #21a9af);
+    background-repeat: repeat-y;
+    height: 140vh;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.checkbox-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.startTime-reservation-div-class {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+    max-width: 450px;
+}
+
+.startTimeButton {
+    padding: 8px 12px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    font-size: 14px;
+    text-align: center;
+    min-width: 60px;
+}
+
+.startTimeButton:hover {
+    background-color:#218838 ;
+    transform: scale(1.05);
+}
+
+.startTimeButton[disabled] {
+    background-color: red;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+section {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+height: 100vh; /* Da zauzme celu visinu ekrana */
+text-align: center;}
